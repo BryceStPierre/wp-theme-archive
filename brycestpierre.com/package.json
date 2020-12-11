@@ -1,0 +1,25 @@
+{
+  "name": "brycestpierre.com",
+  "version": "1.0.0",
+  "description": "A child theme of Brycestrap for my personal website.",
+  "main": "",
+  "scripts": {
+    "bootstrap-dev": "node-sass assets/scss/brycestpierre.scss assets/css/bootstrap.min.css --output-style compressed --watch",
+    "bootstrap": "node-sass assets/scss/brycestpierre.scss assets/css/bootstrap.min.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryceStPierre/brycestpierre.com.git"
+  },
+  "keywords": [ "wordpress", "theme" ],
+  "author": "Bryce St. Pierre",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/BryceStPierre/brycestpierre.com/issues"
+  },
+  "homepage": "https://github.com/BryceStPierre/brycestpierre.com#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.13.1"
+  }
+}

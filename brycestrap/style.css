@@ -1,0 +1,41 @@
+/*
+Theme Name: Brycestrap
+Theme URI: https://github.com/BryceStPierre/brycestrap
+Author: Bryce St. Pierre
+Author URI: http://brycestpierre.com
+Description: A simple but flexible WordPress theme built using Bootstrap 4.3.
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: brycestrap
+Tags: blog, education, news, grid-layout, one-column, right-sidebar, custom-logo, custom-menu, featured-images, footer-widgets, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+svg {
+  vertical-align: top;
+}
+ 
+#nav-icon-menu {
+  padding: 0.5rem 0;
+}
+
+#nav-icon-menu li a {
+  display: inline;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+}
+
+.widget ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.children {
+  list-style-type: none;
+}
+
+.comment-body {
+  margin-top: 1rem;
+}

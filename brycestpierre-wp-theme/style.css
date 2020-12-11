@@ -1,0 +1,141 @@
+/*
+Theme Name: BryceStPierre WP Theme
+Author: Bryce St. Pierre
+Description: A WordPress theme created for my personal website.
+Version: 2.0.0
+Tags: bootstrap
+*/
+
+p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.description {
+  font-size: 0.9rem!important;
+}
+
+.description > p {
+  font-size: 0.9rem!important;
+  margin-bottom: 0;
+}
+
+.btn-dark {
+  background-color: #111;
+  border-color: #111;
+}
+.btn-dark:hover {
+  background-color: #000;
+  border-color: #111;
+}
+
+.navbar-dark {
+  background-color: #111;
+}
+.navbar-toggler {
+  border: none;
+}
+.nav-icon {
+  color: rgba(255,255,255,.5);
+  padding-right: .75rem;
+}
+.nav-icon:hover {
+  color: rgba(255,255,255,.75);
+  text-decoration: none;
+}
+.nav-icon-last {
+  color: rgba(255,255,255,.5);
+}
+.nav-icon-last:hover {
+  color: rgba(255,255,255,.75);
+  text-decoration: none;
+}
+.branding {
+  margin-right: .5rem!important
+}
+
+.card {
+  width: 13rem;
+}
+
+.no-background-color {
+  background-color: transparent!important;
+}
+
+.jumbotron {
+  padding: 2rem;
+  margin-bottom: 0;
+}
+
+.jumbotron-text {
+  font-size: 2rem;
+}
+.jumbotron-line {
+  font-size: 1rem;
+  text-align: center!important;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-footer {
+  font-size: 1rem;
+}
+
+.img-latest-post {
+  max-width: 300px;
+  border-radius: 100%;
+}
+
+.img-rounded {
+  border-radius: 100%;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particle-layer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  top: 0;
+  z-index: -1;
+}
+
+#mailing-list {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: #111;
+}
+
+@media only screen and (max-width: 1000px) {
+  .category-thumbnail {
+    width: 125px !important;
+    height: 125px !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .category-thumbnail {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .category-thumbnail {
+    width: 75px !important;
+    height: 75px !important;
+  }
+}

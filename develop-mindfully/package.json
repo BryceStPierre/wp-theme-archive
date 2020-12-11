@@ -1,0 +1,25 @@
+{
+  "name": "develop-mindfully",
+  "version": "1.0.0",
+  "description": "A WordPress theme created for the Develop Mindfully website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass ./assets/scss/bootstrap.scss:./assets/css/bootstrap.min.css --style compressed && cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./assets/js/bootstrap.bundle.min.js && cp ./node_modules/@fortawesome/fontawesome-free/css/all.min.css ./assets/css/all.min.css && cp ./node_modules/@fortawesome/fontawesome-free/webfonts ./assets -R"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryceStPierre/develop-mindfully.git"
+  },
+  "keywords": [],
+  "author": "Bryce St. Pierre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BryceStPierre/develop-mindfully/issues"
+  },
+  "homepage": "https://github.com/BryceStPierre/develop-mindfully#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.2",
+    "sass": "^1.26.10"
+  }
+}
